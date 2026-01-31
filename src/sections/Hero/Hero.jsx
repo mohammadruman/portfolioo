@@ -43,7 +43,7 @@ function Hero() {
         </h1>
         <h2>Software Developer</h2>
         <span>
-          <a href="https://twitter.com/rumanharis" target="_blank">
+          <a href="https://x.com/rumanjsx" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
           </a>
           <a href="https://github.com/mohammadruman" target="_blank">
@@ -54,7 +54,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps.
+          Software Engineer passionate about solving complex problems through efficient, maintainable code.
         </p>
         <span>
           
