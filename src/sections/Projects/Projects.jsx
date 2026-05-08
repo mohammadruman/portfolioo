@@ -4,6 +4,7 @@ import imageblog from '../../assets/imageblog.png';
 import ProjectCard from '../../common/ProjectCard';
 import { LOGO_URL } from '../../assets/Constants';
 import { Chat_app_logo } from '../../assets/Constants';
+import agentImage from '../../assets/agent.avif';
 import confession_logo  from '../../assets/image.png';
 function Projects() {
   return (
@@ -11,16 +12,23 @@ function Projects() {
       <h1 className="sectionTitle">Featured Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={LOGO_URL}
-          link="https://github.com/mohammadruman/BiteBazaar"
-          h3="BiteBazaar"
-          p="Food Application"
+          src={agentImage}
+          link="https://github.com/mohammadruman/Price-prediction-agent"
+          h3="Price Prediction Agent"
+          p="AI Price Prediction Tool"
+          imgStyle={{ maxWidth: '200px' }}
         />
         <ProjectCard
-          src={Chat_app_logo}
-          link="https://github.com/mohammadruman/Real-Time-Chat-Application-with-React-and-Socket.io"
-          h3="KIIT SOCIAL"
-          p="Real-Time Chat Application"
+          src={LOGO_URL}
+          link="https://github.com/mohammadruman/Kampus-Eats"
+          h3="Kampus Eats"
+          p="Campus Food Delivery"
+        />
+         <ProjectCard
+          src={imageblog}
+          link="https://github.com/mohammadruman/Kiit-EduDiary"
+          h3="KIIT EduDiary"
+          p="Education & Diary App"
         />
         <ProjectCard
           src={confession_logo}
@@ -28,12 +36,7 @@ function Projects() {
           h3="Confessify Web App"
           p="Confession Page"
         />
-        <ProjectCard
-          src={imageblog}
-          link="https://github.com/mohammadruman/Blog"
-          h3="JournalJunction Website"
-          p="Blog App"
-        />
+       
       </div>
     </section>
   );

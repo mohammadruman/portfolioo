@@ -41,7 +41,7 @@ function Hero() {
           <br />
           Ruman
         </h1>
-        <h2>Software Developer</h2>
+        <h2>Software Engineer & AI Engineer</h2>
         <span>
           <a href="https://x.com/rumanjsx" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -54,11 +54,11 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Software Engineer passionate about solving complex problems through efficient, maintainable code.
+          Software Engineer passionate about Agentic AI and building intelligent agents. Solving complex problems through efficient, maintainable code.
         </p>
         <span>
           
-       <a href="https://mohammadruman.tiiny.site/"  rel="noopener noreferrer">
+       <a href="https://mohammaderuman.tiiny.site"  rel="noopener noreferrer">
       <button className="hover"> Resume</button>
     </a>
         
